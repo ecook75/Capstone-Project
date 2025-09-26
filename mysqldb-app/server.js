@@ -6,13 +6,14 @@ let dbConnect = require("./dbConnect");
 // parse requests of content-type - application/json
 app.use(express.json());
 app.get("/", (req, res) => {
-res.json({ message: "Welcome to my MongoDB application." });
+res.json({ message: "Welcome to my MySQL application." });
 });
 
-let userRoutes = require('./routes/userRoutes');
-app.use('/api/users', userRoutes);
+
 let runningMethodRoutes = require('./routes/runningMethodRoutes');
 app.use('/api/running', runningMethodRoutes);
+let userRoutes = require('./routes/userRoutes');
+app.use('/api/users', userRoutes);
 
 //Controllers.userController.storeUsers(req.body, res)
 

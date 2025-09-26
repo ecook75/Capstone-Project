@@ -42,12 +42,12 @@ const storeRunningData = async () => {
     try {
         const array = response.data;
         console.log(array)
-let inc = 0
+//let inc = 0
         for(let i of array) {
-        console.log(i.createdAt, i.updatedAt)
-        inc++
+     //   console.log(i.createdAt, i.updatedAt)
+     //   inc++
 //console.log(parseInt(i.id))
-i.id = inc
+i.id = parseInt(i.id)
 console.log(i.id)
 //Format this according to your table
         const formatObj ={
@@ -58,7 +58,7 @@ console.log(i.id)
         };
 //change Table to the name of your table
         let [newi, created ] = await Models.RunningMethod.findOrCreate({
-            where: {id: i.id},
+            where: {title:i.title},
             defaults: formatObj
         })
     }

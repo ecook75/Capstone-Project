@@ -23,7 +23,7 @@ fitness_level: {
 type: DataTypes.STRING, allowNull: false
 }},
 {
-sequelize: sequelizeInstance, modelName: 'runningMethods', // use lowercase plural format
+sequelize: sequelizeInstance, modelName: 'runningmethods', // use lowercase plural format
 timestamps: true, freezeTableName: true
 }
 ),

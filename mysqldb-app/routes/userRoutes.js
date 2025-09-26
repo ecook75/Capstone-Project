@@ -6,7 +6,7 @@ const Controllers = require("../controllers");
 
 // matches GET requests sent to /api/users
 // (the prefix from server.js)
-Controllers.initialController.storeUsers()
+//Controllers.initialController.storeUsers()
 
 router.get('/', (req, res) => {
 Controllers.userController.getUsers(res);
@@ -19,10 +19,10 @@ res)
 })
 
 // matches init requests sent to /api/users/create
-router.post('/create', (req, res) => {
-Controllers.userController.createUser(req.body,
-res)
-})
+// router.post('/login', (req, res) => {
+// Controllers.userController.loginUser(req.body,
+// res)
+// })
 
 
 // matches PUT requests to /api/users/123 (stores 123 in id param)

@@ -1,5 +1,7 @@
 'use strict';
 const { Sequelize } = require('sequelize');
+const Controllers = require("./controllers");
+
 // Sequelize is a package that abstracts out the need to write
 // SQL queries, relying instead on their models to do it for you
 const sequelize = new Sequelize(process.env.DB_NAME,
@@ -10,8 +12,10 @@ dialect: 'mysql'
 const connectMysql = async () => {
 try {
 await sequelize.authenticate();
-console.log(`Successful connection to MySQL Database
-${process.env.DB_NAME}`);
+console.log(`Successful connection to MySQL Database test
+${process.env.DB_NAME}`); 
+Controllers.initialController.storeRunningData()
+
 } catch (error) {
 console.error('Unable to connect to MySQL database:',
 error);
