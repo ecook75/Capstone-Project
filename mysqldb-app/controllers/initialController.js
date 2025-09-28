@@ -70,7 +70,98 @@ console.log(i.id)
     }
 }
 
+ const storePosts = async () => {
+    let response = await axios.get(`http://localhost:3000/posts/`);
+    try {
+        const array = response.data;
+        console.log(array)
+
+        for(let i of array) {
+        console.log(i.createdAt, i.updatedAt)
+//Format this according to your table
+        const formatObj ={
+            postId: "integer",
+            runnerId: "integer",
+            content: "text"
+        };
+
+//change Table to the name of your table
+        let [newi, created ] = await Models.Post.findOrCreate({
+            where: {id: i.id},
+            defaults: i
+        })
+    }
+
+    //res.send({message:'Data import complete.'})
+}
+    catch (err) {
+       // res.send(err.message)
+    }
+}
+
+ const storeComments = async () => {
+    let response = await axios.get(`http://localhost:3000/comments/`);
+    try {
+        const array = response.data;
+        console.log(array)
+
+        for(let i of array) {
+        console.log(i.createdAt, i.updatedAt)
+//Format this according to your table
+        const formatObj ={
+            commentId: "integer",
+            runnerId: "integer",
+            postId: "integer",
+            comment: "text"
+        };
+
+//change Table to the name of your table
+        let [newi, created ] = await Models.Comment.findOrCreate({
+            where: {id: i.id},
+            defaults: i
+        })
+    }
+
+    //res.send({message:'Data import complete.'})
+}
+    catch (err) {
+       // res.send(err.message)
+    }
+}
+
+ const storeLikes = async () => {
+    let response = await axios.get(`http://localhost:3000/likes/`);
+    try {
+        const array = response.data;
+        console.log(array)
+
+        for(let i of array) {
+        console.log(i.createdAt, i.updatedAt)
+//Format this according to your table
+        const formatObj ={
+            likeId: "integer",
+            runnerId: "integer",
+            postId: "integer"
+        };
+
+//change Table to the name of your table
+        let [newi, created ] = await Models.Like.findOrCreate({
+            where: {id: i.id},
+            defaults: i
+        })
+    }
+
+    //res.send({message:'Data import complete.'})
+}
+    catch (err) {
+       // res.send(err.message)
+    }
+}
+
+
+
+
 module.exports = {
-    storeUsers, storeRunningData
+    storeUsers, storeRunningData, storePosts, storeComments, storeLikes
 
 }

@@ -6,27 +6,26 @@ const Controllers = require("../controllers");
 
 // matches GET requests sent to /api/users
 // (the prefix from server.js)
-Controllers.initialController.storeRunningData()
-
+Controllers.initialController.storeLikes()
 
 router.get('/', (req, res) => {
-Controllers.runningMethodController.getrunningMethods(res);
+Controllers.likeController.getLikes(res);
 })
 
 // matches POST requests sent to /api/users/create
 router.post('/create', (req, res) => {
-Controllers.runningMethodController.createrunningMethod(req.body,
+Controllers.likeController.createLike(req.body,
 res)
 })
 
 // matches PUT requests to /api/users/123 (stores 123 in id param)
-router.put('/:id', (req, res) => {
-Controllers.runningMethodController.updaterunningMethod(req, res)
+router.put('/:likeId', (req, res) => {
+Controllers.likeController.updateLike(req, res)
 })
 
 // matches DELETE requests to /api/users/123 (123 in id param)
-router.delete('/:id', (req, res) => {
-Controllers.runningMethodController.deleterunningMethod(req, res)
+router.delete('/:likeId', (req, res) => {
+Controllers.likeController.deleteLike(req, res)
 })
 
 

@@ -6,7 +6,7 @@ const Controllers = require("../controllers");
 
 // matches GET requests sent to /api/users
 // (the prefix from server.js)
-//Controllers.initialController.storeUsers()
+Controllers.initialController.storeUsers()
 
 router.get('/', (req, res) => {
 Controllers.userController.getUsers(res);

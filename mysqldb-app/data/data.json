@@ -73,6 +73,30 @@
     }
 
   ],
+  "posts": [
+    {
+      "postId": 1,
+      "runnerId": 1,
+      "content": ""
+    }
+  ],
+  "comments": [
+    {
+      "commentId": 1,
+      "runnerId": 1,
+      "postId": 1,
+      "comment": ""
+
+    }
+  ],
+  "likes": [
+    {
+      "likeId": 1,
+      "runnerId": 1,
+      "postId": 1
+    }
+  ],
+  
   "users": [
     {
       "id": 1,

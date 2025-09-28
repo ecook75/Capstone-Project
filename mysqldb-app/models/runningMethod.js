@@ -14,13 +14,13 @@ title: {
 type: DataTypes.STRING, allowNull: false
 },
 description: {
-type: DataTypes.STRING, allowNull: false
+type: DataTypes.TEXT, allowNull: false
 },
 origin: {
-type: DataTypes.STRING, allowNull: false, unique: true
+type: DataTypes.TEXT, allowNull: false
 },
 fitness_level: {
-type: DataTypes.STRING, allowNull: false
+type: DataTypes.TEXT, allowNull: false
 }},
 {
 sequelize: sequelizeInstance, modelName: 'runningmethods', // use lowercase plural format

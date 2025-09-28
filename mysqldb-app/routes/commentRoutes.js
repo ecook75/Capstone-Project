@@ -6,27 +6,26 @@ const Controllers = require("../controllers");
 
 // matches GET requests sent to /api/users
 // (the prefix from server.js)
-Controllers.initialController.storeRunningData()
-
+Controllers.initialController.storeComments()
 
 router.get('/', (req, res) => {
-Controllers.runningMethodController.getrunningMethods(res);
+Controllers.commentController.getComments(res);
 })
 
 // matches POST requests sent to /api/users/create
 router.post('/create', (req, res) => {
-Controllers.runningMethodController.createrunningMethod(req.body,
+Controllers.commentController.createComment(req.body,
 res)
 })
 
 // matches PUT requests to /api/users/123 (stores 123 in id param)
-router.put('/:id', (req, res) => {
-Controllers.runningMethodController.updaterunningMethod(req, res)
+router.put('/:commentId', (req, res) => {
+Controllers.commentController.updateComment(req, res)
 })
 
 // matches DELETE requests to /api/users/123 (123 in id param)
-router.delete('/:id', (req, res) => {
-Controllers.runningMethodController.deleterunningMethod(req, res)
+router.delete('/:commentId', (req, res) => {
+Controllers.commentController.deleteComment(req, res)
 })
 
 
