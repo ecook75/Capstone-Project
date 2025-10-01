@@ -40,3 +40,8 @@
 .read-the-docs {
   color: #888;
 }
+
+LoginBackground{
+  background-image: url("./assets/capstoneimg.avif");
+  min-width: 100vw;
+}

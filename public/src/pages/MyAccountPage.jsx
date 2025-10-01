@@ -4,8 +4,8 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from
 '@mui/material';
-// wraps the default MUI Card component to customise it with props
-export default function UIntervals({title, children}) {
+
+export default function Account({title, children}) {
 return (
 <Card sx={{ maxWidth: 345 }}>
 <CardActionArea>
@@ -17,7 +17,6 @@ reptile.jpg" />
 <CardContent>
 <Typography gutterBottom variant="h5"
 component="div">
-     
 {title}
 </Typography>
 <Typography variant="body2" color="text.secondary">
@@ -31,4 +30,3 @@ component="div">
 </Card>
 );
 }
-// ++ Add support for a button text prop as well, test rendering it

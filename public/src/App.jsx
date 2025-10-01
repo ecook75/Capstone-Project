@@ -1,19 +1,11 @@
 import { useState } from 'react'
 import './App.css'
 
-import Homepage from './pages/HomePage'
 import AppRoutes from './routes/AppRoutes'
 import ButtonAppBar from './components/MUINavBar'
-import LoginForm from './components/LoginForm'
 import AboutPage from './pages/AboutPage'
 import ThemeToggleButton from './components/ThemeToggleButton'
-import HIntervals from './pages/HIntervals'
-import LIntervals from './pages/LIntervals'
-import MIntervals from './pages/MIntervals'
-import PIntervals from './pages/PIntervals'
-import SIntervals from './pages/SIntervals'
-import UIntervals from './pages/UIntervals'
-import YIntervals from './pages/YIntervals'
+import {UserProvider} from './context/UserContext'
 //import MyThemeProvider from './context/MyThemeProvider'
 //Exercise 3
 
@@ -177,11 +169,13 @@ return (
 //<BasicGrid/>
 
     // <MyThemeProvider>
+      <UserProvider>
+        <ButtonAppBar/>
+
       
-       <> <ButtonAppBar/>
         
-<AppRoutes/></>
-        
+<AppRoutes/>
+        </UserProvider>
     // </MyThemeProvider>
 
 

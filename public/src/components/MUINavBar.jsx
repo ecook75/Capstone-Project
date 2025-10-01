@@ -11,7 +11,7 @@ import { NavLink } from 'react-router-dom'
 
 export default function ButtonAppBar() {
   return (
-    <Box sx={{ flexGrow: 1 }}>
+    <Box sx={{ flexGrow: 1, top: 0, position: 'fixed', left:0, minWidth: "100vw" }}>
       <AppBar position="static">
         <Toolbar>
           <IconButton
@@ -30,25 +30,16 @@ export default function ButtonAppBar() {
  <nav className="NavBar">
           
 
-          <Button color="inherit" component={NavLink} to="/home">Home</Button>
 
           <Button color="inherit" component={NavLink} to="/about">About</Button>
 
           <Button color="inherit" component={NavLink} to="/login">Login</Button>
 
-          <Button color="inherit" component={NavLink} to="/longer">Longer</Button>
+          <Button color="inherit" component={NavLink} to="/Intervals">Running Styles</Button>
 
-          <Button color="inherit" component={NavLink} to="/mediumlength">Medium Length</Button>
+          <Button color="inherit" component={NavLink} to="/login">My Account</Button>
 
-          <Button color="inherit" component={NavLink} to="/pyramid">Pyramid</Button>
 
-          <Button color="inherit" component={NavLink} to="/shortandfast">Short and Fast</Button>
-
-          <Button color="inherit" component={NavLink} to="/unstructured">Unstructured</Button>
-
-          <Button color="inherit" component={NavLink} to="/yasso">Yasso</Button>
-
-          <Button color="inherit" component={NavLink} to="/hill">Hill Repeats</Button>
 
 
 
@@ -56,8 +47,14 @@ export default function ButtonAppBar() {
 
 
           
+
+
+
+
+
+          
 </nav>
- )
+ 
 
 
 
