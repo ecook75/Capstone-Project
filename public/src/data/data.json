@@ -1,0 +1,49 @@
+{
+  "runningMethods": [
+
+  {
+    "title": "High-Intensity Interval Training (HIIT)",
+    "id": "hiit",
+    "description": "Alternates short bursts of near-maximal/explosive anaerobic effort with brief recovery periods; sessions usually under 30 minutes.",
+    "origin": "Early 20th century athletic training; systemized across modalities, including running and cycling.",
+    "fitness_level": "Intermediate to Advanced"
+  },
+  {
+    "title": "Tabata Protocol",
+    "id": "tabata",
+    "description": "20 seconds of ultra-intense effort (~170% VO₂max), followed by 10 seconds rest, repeated eight times (total 4 minutes).",
+    "origin": "Developed in Japan in the mid-1990s by Dr. Izumi Tabata for Olympic speed skaters.",
+    "fitness_level": "Advanced"
+  },
+  {
+    "title": "Fartlek (“Speed Play”)",
+    "id": "fartlek",
+    "description": "Unstructured alternation of faster and slower running within a continuous run, typically over varied terrain.",
+    "origin": "Invented in Sweden in the 1930s by coach Gösta Holmér.",
+    "fitness_level": "All Levels"
+  },
+  {
+    "title": "Interval Training (VO₂Max Specific)",
+    "id": "vo2max_intervals",
+    "description": "Structured intervals lasting ~3–5 minutes at high effort near VO₂max, with equal-length recovery periods.",
+    "origin": "Modern sports training methodologies; widely utilized in field and team sports for aerobic and anaerobic development.",
+    "fitness_level": "Intermediate to Advanced"
+  },
+  {
+    "title": "Long, Slow Distance (LSD)",
+    "id": "long_slow_distance",
+    "description": "Extended-duration runs at a low to moderate, steady pace to build aerobic endurance and efficiency.",
+    "origin": "Founded by German coach/physician Ernst van Aaken and popularized in endurance training practices.",
+    "fitness_level": "Beginner to Intermediate"
+  },
+  {
+  "title": "Hill Repeats",
+      "id": "hill_repeats",
+      "description": "Repeated uphill efforts at high intensity followed by jog or walk recovery downhill—typically for 30 seconds to several minutes per rep—to build strength, power, running economy, and cardiovascular fitness.",
+      "origin": "Adopted in modern running training as a safe and effective form of speed-strength work for runners of various backgrounds.",
+      "fitness_level": "Intermediate to Advanced"
+    }
+  ]
+}
+
+
