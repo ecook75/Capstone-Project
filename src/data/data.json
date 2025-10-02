@@ -1,0 +1,182 @@
+{
+  "runningMethods": [
+    {
+      "id": 1,
+      "title": "High-Intensity Interval Training (HIIT)",
+      "description": "HIIT refers to workouts that alternate short bursts of very high (or near maximal) effort with periods of low-intensity recovery or rest. The structure is more flexible than a rigid “protocol” (e.g. Tabata)—you pick the duration, work:rest ratio, number of repetitions, etc. The goal is to maximize the stress on cardiovascular and metabolic systems, in a shorter total session, by repeatedly pushing near one’s physiological limits.",
+      "origin": "The concept of interval training is old (early 20th century, e.g. Gerschler, Pikhala) and HIIT is a more modern iteration. The term “HIIT” gained popularity in the fitness world in recent decades, especially as research showed that short, intense bursts could produce large physiological gains in less time. Various protocols (e.g. 4 times 4, Gibala’s “Little method,” etc.) have been developed as variants under the HIIT umbrella.",
+      "fitness_level": "Very high demand: HIIT pushes both anaerobic and aerobic systems. You recruit maximal or near-maximal intensity, so stress is significant. Best suited for intermediate to advanced runners (or those with a solid aerobic base) because of the injury risk, fatigue, and recovery demands. Benefits include improved VO₂ max, improved anaerobic capacity, better metabolic efficiency, and cardiovascular adaptations. Because it's taxing, volume (total work) must be managed carefully (i.e. you can’t do HIIT-type sessions too often without risk of overtraining or injury)."
+    },
+    {
+      "id": 2,
+      "title": "Tabata Protocol",
+      "description": "The Tabata protocol is a very specific form of HIIT: 20 seconds of “all-out” effort followed by 10 seconds of rest, repeated for 8 cycles (total of 4 minutes of work). Because of its intensity and structure, it is often used as a “burst” within a larger workout (i.e. warm-up, a Tabata block, cool-down).",
+      "origin": "Developed by Izumi Tabata and colleagues in 1996, in a study on speed skaters. The original Tabata study contrasted moderate-intensity continuous training vs the 20/10 protocol; the Tabata group showed increases in both aerobic and anaerobic capacity. Since then, “Tabata” has entered the popular fitness lexicon and is sometimes loosely used to refer to many kinds of short, intense interval circuits (not always strictly 20/10).",
+      "fitness_level": "Extremely high demand: Because the effort is near maximal (sometimes > 100 percent of VO2 max), the stress is intense, both metabolically and neuromuscularly. Only suited for advanced / well-trained individuals (or those who build into it carefully). The rewards are high: you can get substantial improvements in both aerobic and anaerobic capacity in a short time frame. The short total duration helps limit risk, but because recovery is minimal, fatigue accumulates quickly."
+    },
+    {
+      "id": 3,
+      "title": "Fartlek (“Speed Play”)",
+      "description": "Fartlek (from Swedish: fart = speed, lek = play; “speed play”) is a semi-structured or unstructured mix of faster segments and easier segments within a continuous run. Unlike rigid interval training, the changes in pace/duration are more intuitive (“when I feel like pushing”), or based on landmarks (e.g. sprint to the next lamp-post, then ease). It may take place on trails, roads, or mixed terrain, integrating hills and flats.",
+      "origin": "Developed by Swedish coach Gösta Holmér in the 1930s, originally as a training method for cross-country runners. Over time it has become a staple in many runners’ programs, especially as a flexible alternative to rigid intervals.",
+      "fitness_level": "Moderate to high demand, depending on how aggressively one pushes during the “fartlek” spurts. Good for intermediate runners, or as a complementary workout to structured sessions. Because of its variable nature, Fartlek can stress multiple energy systems in a session (aerobic, threshold, sometimes anaerobic). It helps develop pace awareness, mental adaptability, and gives physiological variety (rather than monotonous steady runs)."
+    },
+    {
+      "id": 4,
+      "title": "Interval Training (VO2Max Specific)",
+      "description": "This refers to structured intervals specifically targeted to maximize time in the VO2 max zone (e.g. 90 to 100 percent of VO2 max). Typical intervals might be 2 to 6 minutes of hard running (often close to VO2 max pace), followed by equal or slightly less recovery, repeated multiple times. The goal is to push the cardiovascular system near its maximum sustainable capacity for as long as possible, in repeated bouts.",
+      "origin": "Interval training (in general) has roots in early 20th-century track training (e.g. Gerschler in Germany, Pikhala in Finland). The concept of intervals tailored for VO2 max is a more refined evolution from general interval methods, as scientists and coaches studied how to maximize aerobic adaptations. Many modern interval systems (including those used by elite middle- and long-distance coaches) incorporate VO2 max-specific sessions as a core tool.",
+      "fitness_level": "High demand: these intervals push the aerobic system close to its ceiling, requiring strong recovery ability and base fitness. Best suited for intermediate to advanced runners who already have a good aerobic base and want to increase their top-end capacity. The benefits include raising one’s VO2 max, improving the ability to sustain high percentages of VO2 over time, enhancing oxygen delivery and utilization. Because it is taxing, volume must be controlled. Doing too many VO2 max intervals too often can risk fatigue, overtraining, or injury."
+    },
+    {
+      "id": 5,
+      "title": "Long, Slow Distance (LSD)",
+      "description": "Also called “long slow runs,” “base runs,” or “aerobic endurance training.” These are continuous runs at a relatively low-moderate intensity, over longer durations or distances. Pace is typically comfortable, below threshold, often in a zone where talking is possible (i.e. not overly taxing). The aim is to build volume, endurance, and the aerobic base without excessive fatigue.",
+      "origin": "The idea is quite old: the notion that distance and endurance come from spending time running at moderate intensity. Ernst van Aaken, a German sports physician, is often credited as a founder of the LSD method (Waldnieler Dauerlauf) in endurance training. The term “long slow distance” was popularised by coach Joe Henderson around 1969.The method was popularized further in the running boom, often as the backbone of many endurance training plans. ",
+      "fitness_level": "Low to moderate demand (relative to interval work). The stress is gentler, allowing for higher volume. Great for all levels, especially foundational or base-building phases, or for less conditioned runners. Key adaptations: improved mitochondrial density, increased capillary density, better fat utilization, cardiovascular conditioning, and “time on feet.” However, if used alone at high fitness levels, it has limited ability to improve speed or VO2 max—hence, most athletes combine LSD with harder workouts."
+    },
+    {
+      "id": 6,
+      "title": "Hill Repeats",
+      "description": "Hill repeats (or hill intervals) involve repeatedly running uphill over a fixed gradient or distance, followed by recovery (often jogging or walking downhill or back to the base). The uphill portion may be short (10–30 seconds) or longer (1 to 3+ minutes), depending on goal. The focus is often on strength, power, running economy, or aerobic stress depending on the length and intensity of the hill.",
+      "origin": "Hill training has been used for decades in various running cultures (Kenyan, Ethiopian, etc.) as a way to develop strength, power, and running economy. In modern training theory, hill repeats are often integrated as a complement to flat interval work. They are considered a time-honored tool in many coaches’ toolkits (though not always with a singular “inventor”). Some coaches use hills as replacements or supplements for VO₂ max or tempo intervals, especially in terrain where flat sections are limited.",
+      "fitness_level": "Moderate to high demand, especially on leg strength, muscle recruitment, and cardiovascular load (depending on gradient and duration). Good fit for intermediate to advanced runners (though shorter, gentler hills can be used by less trained runners). Benefits include: improved running economy on both uphill and flat, stronger musculature (glutes, hamstrings, calves), improved power, better lactate tolerance, and sometimes cardiovascular gains (especially with longer hill intervals). Because hills reduce the impact forces (compared to flat speed work) and shift emphasis to strength and mechanics, they often complement speed training nicely."
+    },
+    {
+      "id": 7,
+      "title": "Walking Runs",
+      "description": "Walking runs (often called run-walk intervals) alternate periods of running with periods of walking (or brisk walking) as recovery. For example: run for 2 minutes, then walk for 1 minute; repeat for a set duration or number of cycles. The walking portion gives partial recovery, allowing you to sustain more total time on your feet or reduce injury risk.",
+      "origin": "One of the notable proponents is Jeff Galloway, the Olympian turned coach, who formalized a “run-walk method” to help runners reduce injuries and increase their time on feet. More generally, the idea of mixing walking and running has been used historically in various training systems (especially for beginners or during recovery). The run-walk method has become especially popular for novice runners, people returning from injury, or for long-distance events (e.g., marathons) as a pacing/energy-management tool.",
+      "fitness_level": "Appropriate for: beginners, people building base fitness, those recovering from injury, or runners doing long “time on feet” work without overly stressing the body. Cardiovascular load: moderate overall, since the intense portions are shorter and followed by recovery. Muscular / structural stress: lower than doing all-out continuous running or high-intensity intervals; better for gradual progression. Over time, you can shorten walking intervals or lengthen running intervals to increase stress gradually."
+    },
+    {
+      
+      "id": 8,
+      "title": "Sprint Intervals",
+      "description": "Sprint intervals (sometimes called sprint interval training, or a form of HIIT) are very high-intensity bursts of sprinting (maximal or near-maximal effort) followed by a recovery period (walking, slow jog, or rest). The sprint phases are short (e.g. 10 to 30 seconds, sometimes up to ~1 minute), depending on the protocol, with longer recovery relative to the work interval.",
+      "origin": "The broader concept of interval training (alternating high-intensity efforts with recovery) has roots in early 20th-century athletics. More modern sprint interval protocols have been studied and popularized as time-efficient training for improving both anaerobic and aerobic capacities. Many coaches and exercise physiologists adopt sprint intervals (and HIIT more broadly) for their “bang for buck” in eliciting adaptations in a shorter time span.",
+      "fitness_level": "Very high demand: these workouts stress anaerobic systems (glycolysis, phosphagen system) heavily, plus recruit aerobic metabolism during recovery. Suitable for intermediate to advanced runners (or those already with a solid base) because the stress is high and the risk of overuse or injury is nontrivial. Benefits include increased VO₂ max, improved speed, better lactate tolerance, and improved metabolic adaptations. Because of the intensity, volume (total sprint time) must be carefully managed to avoid overtraining."
+    },
+    {
+      "id": 9,
+      "title": "Tempo Intervals",
+      "description": "A tempo interval is a more sustained, “comfortably hard” pace (often around the lactate threshold / “threshold pace”) held for a block of time (e.g. 15–25 minutes), often sandwiched between warm-up and cool-down. In “interval” form, you might break that tempo block into two or more pieces (e.g. 2 times 10 minutes at tempo, with short recovery). The idea is to push the limit of sustainable speed (without going into an all-out sprint).",
+      "origin": "The notion of a “threshold” run or “tempo” run arises from training theory: working near the anaerobic threshold aids in pushing that boundary outward. Many modern training systems (especially in middle- and long-distance running) incorporate tempo work to bridge between easy base running and high-intensity intervals. It’s less a discrete invention and more a natural evolution in training periodization to develop sustained speed/durability.",
+      "fitness_level": "Moderate to high demand: less extreme than sprints, but still taxing. It works the lactate threshold / aerobic capacity systems especially, helping you increase the pace you can sustain for long durations. Good for intermediate-level runners (those who already have a base of aerobic fitness). Helps with pacing, mental toughness, and bridging the gap between base runs and high-intensity intervals."
+    },
+    {
+      "id": 10,
+      "title": "Ladder Intervals",
+      "description": "A ladder workout is a structured interval set in which the lengths (or durations) of the fast intervals progressively increase, then often decrease (i.e. “climbing up,” then “descending”). Example: 400 m to 800 m to 1200 m to 800 m to 400 m at fast pace, with recovery periods between each. Or in time form: 1 minute to 2 minutes to 3 minutes to 2 minutes to 1 minute. The recovery intervals are usually consistent or scaled appropriately.",
+      "origin": "Ladder workouts are an extension of “pyramid” or “pyramid/lattice” interval ideas, evolving from classic interval training to introduce variation in interval length. While I did not find a precise “origin date,” ladder workouts are widely cited in modern running guides and coaches as a staple in track and speed workouts. They permit variety within a single session and allow the athlete to hit multiple paces or physiological zones in one workout.",
+      "fitness_level": "High demand, because you may push into faster paces for longer intervals (especially on the upward side of the ladder) and then still sustain effort on the descending side. Suitable for intermediate to advanced runners who have good recovery capacity and base fitness. The advantage is that ladder workouts “stress” multiple systems: shorter intervals hit more anaerobic/speed, longer ones target VO2 max or threshold, etc. Also psychologically useful: the progression gives a sense of buildup and resolution."
+    }
+
+  ],
+  "posts": [
+    {
+      "postId": 1,
+      "runnerId": 1,
+      "content": ""
+    }
+  ],
+  "comments": [
+    {
+      "commentId": 1,
+      "runnerId": 1,
+      "postId": 1,
+      "comment": ""
+
+    }
+  ],
+  "likes": [
+    {
+      "likeId": 1,
+      "runnerId": 1,
+      "postId": 1
+    }
+  ],
+  
+  "users": [
+    {
+      "id": 1,
+      "runnerId": 1,
+      "firstName": "Olivia",
+      "lastName": "Smith",
+      "emailId": "olivia.smith@example.com",
+      "password": "V!r7u@lP@ss9"
+    },
+    {
+      "id": 2,
+      "runnerId": 2,
+      "firstName": "Liam",
+      "lastName": "Johnson",
+      "emailId": "liam.johnson@example.com",
+      "password": "L1@m#Secure2025"
+    },
+    {
+      "id": 3,
+      "runnerId": 3,
+      "firstName": "Noah",
+      "lastName": "Williams",
+      "emailId": "noah.williams@example.com",
+      "password": "No@h_88x!"
+    },
+    {
+      "id": 4,
+      "runnerId": 4,
+      "firstName": "Emma",
+      "lastName": "Brown",
+      "emailId": "emma.brown@example.com",
+      "password": "Emm@Safe!45"
+    },
+    {
+      "id": 5,
+      "runnerId": 1,
+      "firstName": "Oliver",
+      "lastName": "Jones",
+      "emailId": "oliver.jones@example.com",
+      "password": "O11iv_er$77"
+    },
+    {
+      "id": 6,
+      "runnerId": 1,
+      "firstName": "Amelia",
+      "lastName": "Garcia",
+      "emailId": "amelia.garcia@example.com",
+      "password": "Am3l!a_Gpx2"
+    },
+    {
+      "id": 7,
+      "runnerId": 1,
+      "firstName": "James",
+      "lastName": "Miller",
+      "emailId": "james.miller@example.com",
+      "password": "J@mes-Mill3r1"
+    },
+    {
+      "id": 8,
+      "runnerId": 1,
+      "firstName": "Mia",
+      "lastName": "Davis",
+      "emailId": "mia.davis@example.com",
+      "password": "Mi@2025-Dv!"
+    },
+    {
+      "id": 9,
+      "runnerId": 1,
+      "firstName": "Mateo",
+      "lastName": "Rodriguez",
+      "emailId": "mateo.rodriguez@example.com",
+      "password": "M@t3o-Rdgz#9"
+    },
+    {
+      "id": 10,
+      "runnerId": 1,
+      "firstName": "Sophia",
+      "lastName": "Martinez",
+      "emailId": "sophia.martinez@example.com",
+      "password": "S0ph!a*2025"
+    }
+  ]
+}
