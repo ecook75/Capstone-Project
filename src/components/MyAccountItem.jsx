@@ -6,28 +6,24 @@ import { Button, CardActionArea, CardActions } from
 '@mui/material';
 
 export default function MyAccount({
-      id = 'Integer',
-      runnerId = 'Number',
-      firstName = 'Name',
-      lastName = 'Surname',
-      emailId = 'Email',
-      password = 'Private'
+      id,
+      runnerId,
+      firstName,
+      lastName,
+      emailId,
+      password
 }) {
-
+console.log(firstName)
 return (
-<Card sx={{ maxWidth: 400 }}>
-<CardActionArea>
-<CardMedia 
-height="300" 
-
-/>
+  <>
+<Card sx={{ minWidth: 400, minHeight: 400 }}>
 
 <CardContent>
             <Typography gutterBottom variant="h5" component="div">
               
               {firstName}
             </Typography>
-            <Typography variant="body2" color="text.secondary">{emailId}
+            <Typography variant="body2" color="black">{emailId}
               
             </Typography>
             {/* <Typography variant="body2" color="text.secondary">{origin}
@@ -37,10 +33,10 @@ height="300"
               {fitness_level}
             </Typography> */}
           </CardContent>
-        </CardActionArea>
         <CardActions>
           <Button size="small" color="primary"></Button>
         </CardActions>
       </Card>
+      </>
 );
 }

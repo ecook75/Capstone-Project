@@ -7,19 +7,22 @@ import { Button, CardActionArea, CardActions } from '@mui/material';
 import Box from '@mui/material/Box';
 import MyAccount from '../components/MyAccountItem';
 import axios from 'axios';
+import { useUserContext } from '../context/UserContext';
 
 export default function ProfileUser(){
 
+  const { currentUser, handleUpdateUser } = useUserContext();
 
 const[userData, setUserData]=useState([]);
 const [error, setError] = useState(null);
 
 useEffect(()=>{
+  console.log(currentUser.email)
 axios
-      .get('http://localhost:3000/users')
+      .get('http://localhost:8081/api/users')
       .then(res => {
-        setUserData(res.data);
-        //console.log(res.data)
+        // setUserData(res.data);
+        setUserData(res.data.data.find(user=>user.emailId==currentUser.email))
       })
       .catch(err => {
         console.log(err),
@@ -27,7 +30,6 @@ axios
 });
 }, []);
 
-  
   return (
     <Box sx={{
         display: 'flex',
@@ -40,15 +42,15 @@ axios
     >
       <Box container spacing={3}>
         {/* map */}
-          <Box item xs={12} sm={6} md={4} key={user.id}>
-            <MyAccount
-              id={user.id}
-              runnerId={user.runnerid}
-              firstName={user.firstname}
-              lastName={user.lastname}
-              emailId={user.emailid}
-              password={user.password}
-            />
+          <Box item xs={12} sm={6} md={4}>
+           { userData?.id ? <MyAccount
+              id={userData?.id}
+              runnerId={userData?.runnerid}
+              firstName={userData?.firstname}
+              lastName={userData?.lastname}
+              emailId={userData?.emailid}
+              password={userData?.password}
+            />:null}
     </Box>
     
 </Box>

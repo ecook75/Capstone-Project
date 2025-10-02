@@ -16,6 +16,7 @@ export function LoginForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    console.log(userEmail)
     if (userPassword.length < 10) setSubmitResult('Password must be at least 10 characters long');
     else if (userPassword === userEmail) setSubmitResult('Password must not match email address');
     else {
@@ -25,21 +26,21 @@ export function LoginForm() {
   };
 
 const bgURL = "https://images.unsplash.com/photo-1489244094604-1758de9a6728?q=80&w=1166&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-const Background = ({ children }) => (
-    <Box
-      sx={{
-        minHeight: '100vh',
-        maxWidth: 100,
-        display: 'grid',
-        placeItems: 'center',
-        backgroundImage: `url(${bgURL})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-}}
-    >
-      {children}
-    </Box>
-  );
+// const Background = ({ children }) => (
+//     <Box
+//       sx={{
+//         minHeight: '100vh',
+//         maxWidth: 100,
+//         display: 'grid',
+//         placeItems: 'center',
+//         backgroundImage: `url(${bgURL})`,
+//         backgroundSize: 'cover',
+//         backgroundPosition: 'center',
+// }}
+//     >
+//       {children}
+//     </Box>
+//   );
 if (currentUser?.email) {
     return (
       <div className="LoginForm componentBox"

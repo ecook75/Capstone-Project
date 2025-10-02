@@ -10,6 +10,7 @@ export const UserProvider = (props) => {
 const [currentUser, setCurrentUser] = useState({});
 // sets user object in state, shared via context
 const handleUpdateUser = (user) => {
+    console.log(user)
 setCurrentUser(user);
 }
 // 2. Provide the context.

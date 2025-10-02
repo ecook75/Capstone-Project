@@ -1,0 +1,12 @@
+MyRun is an online community for runners to participate in. The application requires users to create an account, which grants them access to various chats for multiple interval running techniques. 
+The app stores user information in a MySQL database, which allows users to log in whenever they want. On a user’s account page they will see their submitted information, posts they have written, as well as their comments and likes on the posts of others. 
+There are ten Interval Running Techniques for runners to learn about and try themselves. Under each technique there is a place for runners to chat with each other about running.
+There are other websites that focus on fitness and running, however there aren’t any that specialize in running and allow runners to chat in real time about their endeavors. Interval techniques are provided because they are simple to learn, fun, and one of the best ways to improve as a runner. 
+MyRun is a React application that utilizes MUI to build its front end and a MySQL database to store all information.
+To use this application, you must first start the servers. 
+The first steps are in the Back-End of the application. First right-click on the Data folder and click Open In Integrated Terminal. Once the terminal opens down below, type in json-server data.json and press Enter. Hover over the link which should read localhost:3000 followed by the data route. Ex: users, runningmethods, posts, comments, likes.
+Then right-click on the root folder, in this case the mysqldb-app. Click Open In Integrated Terminal. Another terminal will appear at the bottom of the page. In the terminal type npm start and press Enter. This will start the server.
+Then right click on the src folder, choosing Open In Integrated Terminal. The terminal will present the application link.
+Once in the application follow the Sign-Up instructions to gain access. Once you have signed up you will have a User Account which will then allow you to participate in the conversations on the Running Styles page.
+At the moment the User's information won't populate, this is a work in progress.
+I was also planning on building chat pages for each running style. This was out of scope for me and still a work in progress.
