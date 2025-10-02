@@ -3,14 +3,15 @@ import { Routes, Route } from "react-router-dom";
 import MyAccountPage from "../pages/MyAccountPage"
 import LoginPage from "../pages/LoginPage";
 import RunningStylesPage from "../pages/RunningStylesPage";
+import GridRunning from "../pages/RunningStylesPage";
 
 function AppRoutes(props) {
   return (
     <Routes>
       <Route index element={<LoginPage {...props} />} />
-      <Route index element={<RunningStylesPage {...props} />} />   
+      {/* <Route index element={<RunningStylesPage {...props} />} />   
       <Route index element={<MyAccountPage {...props} />} />   
-      <Route index element={<AboutPage {...props} />} />
+      <Route index element={<AboutPage {...props} />} /> */}
       {/* <Route path="dash" element={<DashboardPage {...props} />}>
         <Route path="messages" element={<DashboardMessages />} />
         <Route path="tasks" element={<DashboardTasks />} />
@@ -29,10 +30,10 @@ function AppRoutes(props) {
         <Route path="id" element={<Post />} />
         </Route> */}
         {/* <Homepage {...props} /><ProtectedRoute> */}
-        <Route path="about" element={<AboutPage />} />
-        <Route path="login" element={<LoginPage />} />
-        <Route path="myaccount" element={<MyAccountPage />} />
-        <Route path="runningstyles" element={<RunningStylesPage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/myaccount" element={<MyAccountPage />} />
+        <Route path="/running" element={<GridRunning />} />
 
 
 

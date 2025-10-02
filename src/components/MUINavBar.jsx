@@ -35,9 +35,9 @@ export default function ButtonAppBar() {
 
           <Button color="inherit" component={NavLink} to="/login">Login</Button>
 
-          <Button color="inherit" component={NavLink} to="/Intervals">Running Styles</Button>
+          <Button color="inherit" component={NavLink} to="/running">Running Styles</Button>
 
-          <Button color="inherit" component={NavLink} to="/login">My Account</Button>
+          <Button color="inherit" component={NavLink} to="/myaccount">My Account</Button>
 
 
 
